@@ -183,7 +183,7 @@ def main():
 
         # timeの計算と表示
         if time_elapsed % 60 == 0:  # timeを増やす頻度を調整
-            score += 1
+            score += 1 
 
             if score >= 10:  # timeが10以上になった場合の処理
                 for color in range(3):
